@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@font-face{
+    font-family: gvVerb;
+    src:url(https://mymulti-craft.com/strength/fonts/verbatim_regular-webfont.woff);
+    font-style:normal;
+    font-weight:normal;
+}
+
+
 .wrapper {
   width: 100%; }
 
@@ -44,7 +53,7 @@ img {
 
 center {
   width: 100%;
-  min-width: 580px; }
+  min-width: 700px; }
 
 a img {
   border: none; }
@@ -553,13 +562,15 @@ th.large-12.last {
 .collapse > tbody > tr > th.large-12 {
   padding-right: 0;
   padding-left: 0;
-  width: 580px; }
+  /*width: 580px;*/
+  width:700px;}
 
 .collapse td.large-12.first,
 .collapse th.large-12.first,
 .collapse td.large-12.last,
 .collapse th.large-12.last {
-  width: 588px; }
+  /*width: 588px;*/
+  width:708px;}
 
 td.large-12 center,
 th.large-12 center {
